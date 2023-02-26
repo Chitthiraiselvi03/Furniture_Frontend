@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin:0px;
+    /*color: #666666;*/
+    font-size: 14px;
+    font-family:Verdana;
+    line-height: 1.80857;
+    font-weight: normal;
+    }
+.clear-space{
+    clear:both;
+}
+/*header-file*/
+.header{
+    width: 100%;
+    background-image: url('../images/header-bg.png');
+}
+.left-logo{
+    width: 20%;
+    float:left;
+    margin:10px;
+}
+.menu-list{
+    width: 40%;
+    float:left;
+}
+.menu-list a:hover{
+    color:darkorange;
+}
+.right-login{
+    width:30%;
+    float:left;
+    font-size: 20px;
+}
+.nav-item{
+    width:20%;
+    float:left;
+    list-style-type: none;
+}
+.nav-item a{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    }
+.call-us{
+    width:70%;
+    float:left;
+    color:darkorange;
+}
+.call-us p{
+    font-size: 16px;
+    text-align: center;
+}
+.login{
+    width:30%;
+    float:left;
+}
+.search-logo{
+    width:30%;
+    float:left;
+    padding-top:10px;
+}
+.login-text{
+    width:70%;
+    float:left;
+    padding-top:10px;
+}
+/*service-content*/
+.main-content{
+    width:80%;
+    margin:auto;
+}
+.content-title{
+    text-align: center;
+    padding:40px;
+}
+.icon-list{
+    width:100%;
+}
+.content-furniture{
+    width:25%;
+    float:left;
+    text-align: center;
+    padding:30px;
+}
+.content-office{
+    width:25%;
+    float:left;
+    text-align: center;
+    padding:30px;
+}
+.content-home{
+    width:25%;
+    float:left;
+    text-align: center;
+    padding:30px;
+}
+.content-bedroom{
+    width:25%;
+    text-align: center;
+    float:left;  
+    padding:40px;  
+}
+.button-style {
+    background-color:darkorange;
+    border: 2px solid darkorange;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+.button-style:hover {
+    background-color:black;
+    border: 2px solid black;
+    color:white;
+}
+.about-button-style {
+  background-color:black;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: white;
+  transition: .3s;
+  }
+  .about-button-style:hover {
+    background-color:white;
+    border: 2px solid white;
+    color:black;
+  }
+/*footer-file*/
+
+.brief-description{
+    width:100%;
+    background-color: black;
+    color:whitesmoke;
+}
+.footer-content{
+    margin:auto;
+    width: 80%;
+    float: inherit;
+}
+.left-content-1{
+    width:25%;
+    float:left;
+    padding:30px;
+}
+.left-content-2{
+    width:25%;
+    float:left;
+    padding:30px;
+}
+.right-content-1{
+    width:25%;
+    float:left;
+    padding:30px;
+}
+.num{
+    list-style-type: none;
+    margin-left: -40px;
+}
+.right-content-2{
+    width:25%;
+    float:left;
+    padding:30px;
+}
+
+.email-portion{
+    width: 45%;
+    float: right;
+    margin-bottom: 20px;
+}
+.email-input{
+    width: 200px;
+    float: left;
+}
+.email{
+    padding:10px;
+    border-bottom: white;
+}
+.subscribe-button{
+    width: 200px;
+    float: left;
+}
+.subscribe-button button{
+    color: white;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    padding:10px;
+}
+.copyright{
+    width:100%; 
+    text-align: center;
+    padding:40px;    
+}
+.about-us{
+    width:100%;
+    background-color: darkorange;
+    padding:70px;
+}
+.about-main-content{
+    width:100%;
+    margin:50px 50px;
+}
+.about-description{
+    float:left;
+    width:50%;    
+}
+.about-pic{
+    float:left;
+    width:50%;
+    padding: 20px;
+}
+.shop-title{
+    width:100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.shop-pic-content{
+    width:100%;
+    margin:100px;
+}
+.left-pic{
+    width:40%;
+    float:left;
+}
+.left-pic h3{
+    color:darkorange;
+}
+.right-pic{
+    width:40%;
+    float:left;
+}
+.right-pic h3{
+    color:darkorange;
+}
+.contact-main-content{
+    width:100%;
+    background-image: url(../images/contact-bg.png);
+    padding:100px;
+}
+.content-filling{
+    width:50%;
+    float:left;
+    
+}
+.name{
+    width:80%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    border: 1px gray;
+    border-radius: 4px;
+}
+.mailid{
+    width:80%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    border: 1px gray;
+    border-radius: 4px;
+}
+.phone-num{
+    width:80%;
+    padding: 20px 20px;
+    margin: 10px 0;
+    border: 1px gray;
+    border-radius: 4px;
+}
+.message{
+    width:80%;
+    padding: 50px 50px;
+    margin: 10px 0;
+    border: 1px gray;
+    border-radius: 4px;
+}
+
+
+.pic-content{
+    width:50%;
+    float:left;
+}
+.personal-details-title h1{
+    color:black;
+}
+.contact-button-style {
+    background-color:gray;
+    border: 2px solid gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+.contact-button-style:hover {
+    background-color:white;
+    border: 2px solid white;
+    color:black;
+  }
